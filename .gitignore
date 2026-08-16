@@ -1,0 +1,17 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*token*
+*secret*
+
+# WordPress private or raw backups
+backups/raw/
+*.sql
+
+# Local and temporary files
+.DS_Store
+*.log
+.venv/
+node_modules/
